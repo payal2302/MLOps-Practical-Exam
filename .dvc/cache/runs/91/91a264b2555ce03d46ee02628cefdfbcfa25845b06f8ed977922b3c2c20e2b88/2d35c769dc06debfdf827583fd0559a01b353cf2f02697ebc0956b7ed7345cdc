@@ -1,0 +1,15 @@
+cmd: python src/pipeline/validate.py
+deps:
+- path: data/processed/wine_features.csv
+  hash: md5
+  md5: 1a49d4d13c619e5924785f5973d7aa12
+  size: 18700
+- path: src/pipeline/validate.py
+  hash: md5
+  md5: ac0e72929f6c8495c02e1795cd852d9d
+  size: 1175
+outs:
+- path: data/validated/wine_validated.csv
+  hash: md5
+  md5: cf8b7e1a2e2f3b5d92622a5b1134aaee
+  size: 18667

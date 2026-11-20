@@ -1,0 +1,15 @@
+cmd: python src/pipeline/preprocess.py
+deps:
+- path: data/raw/wine_raw.csv
+  hash: md5
+  md5: e6dccd29b15c08636f50bd2c0fd80a6a
+  size: 12440
+- path: src/pipeline/preprocess.py
+  hash: md5
+  md5: dfc5eadf368343b6e5f5c26e4004bb87
+  size: 1048
+outs:
+- path: data/processed/wine_preprocessed.csv
+  hash: md5
+  md5: e6dccd29b15c08636f50bd2c0fd80a6a
+  size: 12440

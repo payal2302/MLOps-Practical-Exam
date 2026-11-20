@@ -1,0 +1,15 @@
+cmd: python src/pipeline/features.py
+deps:
+- path: data/processed/wine_preprocessed.csv
+  hash: md5
+  md5: e6dccd29b15c08636f50bd2c0fd80a6a
+  size: 12440
+- path: src/pipeline/features.py
+  hash: md5
+  md5: b0d4d3e38bcab1ae96ad630856171f59
+  size: 994
+outs:
+- path: data/processed/wine_features.csv
+  hash: md5
+  md5: 1a49d4d13c619e5924785f5973d7aa12
+  size: 18700

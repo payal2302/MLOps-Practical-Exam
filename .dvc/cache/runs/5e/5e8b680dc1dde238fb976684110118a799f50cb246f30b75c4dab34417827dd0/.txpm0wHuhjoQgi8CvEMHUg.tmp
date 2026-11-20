@@ -1,0 +1,15 @@
+cmd: python src/pipeline/collect.py
+deps:
+- path: src/pipeline/collect.py
+  hash: md5
+  md5: 0b8ca1253dfe779116ec1b2bab128df6
+  size: 628
+- path: wine.csv
+  hash: md5
+  md5: 2925c4a8cd201c79d97d3d283429ef23
+  size: 12261
+outs:
+- path: data/raw/wine_raw.csv
+  hash: md5
+  md5: e6dccd29b15c08636f50bd2c0fd80a6a
+  size: 12440
